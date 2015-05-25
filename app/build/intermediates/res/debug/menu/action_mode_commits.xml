@@ -1,0 +1,21 @@
+<menu
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+	<item
+		android:id="@+id/copy_commit_id"
+		android:title="@string/copy_commit_id"
+		app:showAsAction="never"/>
+	
+	<item
+		android:id="@+id/revert"
+		android:title="@string/git_revert"
+		app:showAsAction="never"/>
+	
+	<item
+		android:id="@+id/reset_to"
+		android:title="@string/git_reset_to"
+		app:showAsAction="never"/>
+    
+</menu>
+<!-- From: file:/Users/scar/AndroidDevelop/ProjectSource/PGit/app/src/main/res/menu/action_mode_commits.xml -->

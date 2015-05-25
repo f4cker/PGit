@@ -20,7 +20,6 @@
 		android:layout_alignParentBottom="true"
 		android:layout_margin="16dp"
 		android:background="?attr/colorPrimary"
-		android:src="@drawable/ic_add_white_24dp"
-		android:scaleType="centerInside"/>
+		android:src="@drawable/ic_add_white_24dp"/>
 	
 </RelativeLayout>

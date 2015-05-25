@@ -2,26 +2,25 @@ package net.typeblog.git.activities;
 
 import android.content.Intent;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.EditText;
 import android.widget.ListView;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.widget.Toast;
-
-import android.support.v7.widget.AppCompatEditText;
-
-import java.util.Arrays;
-import java.util.ArrayList;
-import java.util.List;
 
 import net.typeblog.git.R;
 import net.typeblog.git.adapters.RepoAdapter;
 import net.typeblog.git.dialogs.ToolbarDialog;
 import net.typeblog.git.support.RepoManager;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 import static net.typeblog.git.BuildConfig.DEBUG;
-import static net.typeblog.git.support.Utility.*;
+import static net.typeblog.git.support.Utility.$;
 
 public class HomeActivity extends ToolbarActivity implements AdapterView.OnItemClickListener
 {
@@ -100,7 +99,7 @@ public class HomeActivity extends ToolbarActivity implements AdapterView.OnItemC
 			}
 			
 			if (repo.lastIndexOf("/") == repo.length() - 1) {
-				repo = repo.substring(0, repo.length() - 1);
+				repo = repo.substring(0, repo.length());
 			}
 			
 			mRepoNames.add(repo.substring(repo.lastIndexOf("/") + 1, repo.length()));

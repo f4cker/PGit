@@ -1,0 +1,36 @@
+<menu 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+	<item
+		android:id="@+id/commit"
+		android:title="@string/git_commit"
+		app:showAsAction="never"/>
+	
+    <item
+		android:id="@+id/pull"
+		android:title="@string/git_pull"
+		app:showAsAction="never"/>
+	
+	<item
+		android:id="@+id/add_remote"
+		android:title="@string/add_remote"
+		app:showAsAction="never"/>
+	
+	<item
+		android:id="@+id/branch_create"
+		android:title="@string/git_branch_create"
+		app:showAsAction="never"/>
+	
+	<item
+		android:id="@+id/tag_create"
+		android:title="@string/git_tag_create"
+		app:showAsAction="never"/>
+	
+	<item
+		android:id="@+id/clean_all"
+		android:title="@string/git_clean_all"
+		app:showAsAction="never"/>
+	
+</menu>
+<!-- From: file:/Users/scar/AndroidDevelop/ProjectSource/PGit/app/src/main/res/menu/repo.xml -->

@@ -1,0 +1,26 @@
+<menu
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+	<item
+		android:id="@+id/push"
+		android:title="@string/git_push"
+		app:showAsAction="never"/>
+	
+	<item
+		android:id="@+id/checkout"
+		android:title="@string/git_checkout"
+		app:showAsAction="never"/>
+	
+	<item
+		android:id="@+id/delete"
+		android:title="@string/git_branch_delete"
+		app:showAsAction="never"/>
+	
+	<item
+		android:id="@+id/track_remote"
+		android:title="@string/track_remote"
+		app:showAsAction="never"/>
+	
+</menu>
+<!-- From: file:/Users/scar/AndroidDevelop/ProjectSource/PGit/app/src/main/res/menu/action_mode_branch.xml -->
